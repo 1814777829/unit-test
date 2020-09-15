@@ -1,0 +1,20 @@
+public class 冒泡 {
+public static void main(String[] args) {
+int []mp= {1,23,4,5,67,8,34,21,23,12};
+	for(int i=0;i<bs.length;i++)
+	{
+		for(int j=0;j<mp.length-i-1;j++)
+		{
+			if(mp[j]>mp[j+1])
+			{
+				int temp = mp[j+1];
+				mp[j+1]=mp[j];
+				mp[j]=temp;
+			}
+		}
+	}
+	System.out.print("冒泡排序：");
+	for(int i=0;i<mp.length;i++)
+		System.out.print(mp[i]+"\t");
+	}
+	}
